@@ -1,0 +1,132 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 165, 104);
+}
+
+header
+{
+    background-color: rgb(141, 69, 236);
+    border-bottom: 1px solid #ddd;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li
+{
+    cursor: pointer;
+}
+.auth button
+{
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: rgb(201, 194, 137);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.auth-buttons .signup
+{
+    background-color: blue;
+}
+.hero
+{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+.hero h1
+{
+    font-size: 40px;
+}
+.hero h1 .hightlight
+{
+    color: #fff;
+}
+.hero button
+{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.hero .enterprise
+{
+    color: #6200ea;
+    text-decoration: none;
+}
+.features
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,200px,1fr);
+    gap: 20px;
+}
+.included
+{
+    text-align: center;
+}
+.included button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+}
+.learners-work
+{
+    text-align: center;
+}
+.companies
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.companies img
+{
+    border-radius: 110px;
+    size: 30px;
+}
+.why-it-works .reasons
+{
+    display: flex;
+    grid-template-columns: 30px;
+    gap: 20px;
+}
+.why-it-works .reason
+{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+footer
+{
+    text-align: center;
+    padding: 100px;
+    background-color: blanchedalmond;
+    border-top: 1px solid #ddd;
+}
